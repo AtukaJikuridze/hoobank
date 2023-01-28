@@ -1,0 +1,208 @@
+header {
+  padding: 180px 0px;
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-rightside {
+    img {
+      margin-top: -100px;
+      width: 705px;
+      position: absolute;
+      right: 0;
+      top: 260px;
+    }
+  }
+  .header-rightside::before {
+    content: "";
+    position: absolute;
+    right: 100px;
+    top: 55%;
+    transform: translateY(-50%);
+    width: 40%;
+    height: 40%;
+    background: rgba(255, 255, 255, 0.6);
+    filter: blur(375px);
+  }
+}
+.header-discount {
+  width: 408px;
+  height: 40px;
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 5px 30px;
+  img {
+    width: 9px;
+    height: 9px;
+    margin-right: 10px;
+  }
+  p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 17px;
+  }
+}
+.header-leftside-text {
+  position: relative;
+  padding: 30px 0px;
+  h1 {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    text-transform: capitalize;
+  }
+  h1:nth-child(2) {
+    background: radial-gradient(
+        64.18% 64.18% at 71.16% 35.69%,
+        #def9fa 0.89%,
+        #bef3f5 17.23%,
+        #9dedf0 42.04%,
+        #7de7eb 55.12%,
+        #5ce1e6 71.54%,
+        #33bbcf 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  p:nth-child(4) {
+    color: rgba(255, 255, 255, 0.7);
+    width: 483px;
+    line-height: 190%;
+  }
+}
+
+.header-leftside::before {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 50%;
+  left: -200px;
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(205px);
+}
+.header-getstarted {
+  transition: 0.4s;
+  width: 140px;
+  cursor: pointer;
+  height: 140px;
+  border: 2px solid #4cd3dd;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0px;
+  right: 90px;
+  div {
+    display: flex;
+    margin-top: 14px;
+
+    p {
+      margin-bottom: 0px;
+    }
+    svg {
+      margin-left: 8px;
+      transform: translateY(-2px);
+      font-size: 23px;
+    }
+  }
+  p {
+    line-height: 130%;
+    color: #4cd3dd;
+    font-weight: 500;
+    background-clip: text;
+  }
+}
+@media screen and (max-width: 1400px) {
+  body {
+    .header-rightside {
+      img {
+        width: 500px;
+        top: 50%;
+        transform: translateY(-20%);
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  body {
+    .header-leftside-text {
+      h1 {
+        font-size: 50px;
+      }
+      .header-getstarted {
+        right: 20px;
+        top: 22px;
+      }
+    }
+    .header-rightside {
+      img {
+        width: 420px;
+        top: 50%;
+        transform: translateY(-20%);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .header-rightside {
+    display: none;
+  }
+  body {
+    .header-container {
+      display: flex;
+      justify-content: center;
+      .header-leftside::before {
+        width: 40%;
+        height: 40%;
+        filter: blur(305px);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 590px) {
+  body {
+    .header-container {
+      h1 {
+        text-align: center;
+
+        font-size: 39px !important;
+      }
+      .header-leftside-text p:nth-child(4) {
+        text-align: center;
+      }
+      display: flex;
+      justify-content: center;
+      .header-discount {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 5px 15px !important;
+        p {
+          font-size: 12px;
+        }
+      }
+      .header-getstarted {
+        display: none;
+      }
+      .header-leftside-text {
+        h1 {
+          font-size: 30px;
+        }
+        p:nth-child(4) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

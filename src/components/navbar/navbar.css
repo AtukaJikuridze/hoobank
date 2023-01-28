@@ -1,1 +1,92 @@
-/*# sourceMappingURL=navbar.css.map */
+nav {
+  height: 100px;
+  background-color: transparent;
+}
+nav svg {
+  display: none;
+}
+nav .navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+nav .navbar-container .logo {
+  display: flex;
+  align-items: center;
+}
+nav .navbar-container .logo img {
+  width: 32px;
+  height: 32px;
+}
+nav .navbar-container .logo h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 130%;
+  display: flex;
+  color: #ffffff;
+  margin: 0px 0px 0px 20px;
+}
+nav .navbar-container .logo span {
+  font-weight: 700;
+  color: rgb(92, 225, 230);
+}
+nav .navbar-container ul li {
+  display: inline-block;
+  margin: 0px 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: rgba(255, 255, 255, 0.7);
+  transition: 0.4s;
+  cursor: pointer;
+  margin-top: 20px;
+}
+nav .navbar-container ul li:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 990px) {
+  nav li {
+    margin: 20px 20px 0px 20px !important;
+  }
+}
+@media screen and (max-width: 770px) {
+  nav {
+    transition: 0.4s;
+    background: rgb(8, 8, 8) !important;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    text-align: center;
+  }
+  nav.afternav {
+    height: 285px;
+    padding-bottom: 30px;
+  }
+  nav svg {
+    position: fixed;
+    display: block;
+    top: 35px;
+    right: 30px;
+    font-size: 30px;
+  }
+  nav .navbar-container {
+    padding-top: 36px;
+    flex-direction: column;
+  }
+  nav .navbar-container ul li {
+    display: block;
+  }
+  nav .navbar-container .logo {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: -20px;
+  }
+}/*# sourceMappingURL=navbar.css.map */
