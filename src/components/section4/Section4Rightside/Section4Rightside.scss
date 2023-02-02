@@ -1,0 +1,153 @@
+.section4-rightside {
+  .setion4-creditcard {
+    width: 201px;
+    height: 198px;
+    background: linear-gradient(
+      121.51deg,
+      #ffffff -264.89%,
+      #6d6d6d -77.96%,
+      #11101d 80.93%
+    );
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .creditcard-logo {
+      width: 41px;
+      height: 41px;
+      background: #00030c;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    p {
+      text-align: center;
+      font-size: 12px;
+    }
+  }
+  .section4-analysiscard {
+    width: 306px;
+    height: 278px;
+    background: linear-gradient(137.02deg, #ffffff -248.55%, #14101d 65.59%),
+      rgba(196, 196, 196, 0.4);
+    border-radius: 20px;
+    padding: 20px;
+    .analysis-header {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+.section4-top-cards {
+  display: flex;
+  gap: 66px;
+  align-items: center;
+}
+
+.analysis-colorizetext {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  div:nth-child(1) {
+    h3,
+    p {
+      font-weight: 500;
+      line-height: 140%;
+
+      color: #00d2aa;
+    }
+    p {
+      font-size: 13px;
+    }
+    h3 {
+      margin-bottom: 2px;
+    }
+  }
+  div:nth-child(2) {
+    h3,
+    p {
+      font-weight: 500;
+      line-height: 140%;
+
+      color: #00d9f5;
+    }
+    p {
+      font-size: 13px;
+    }
+    h3 {
+      margin-bottom: 2px;
+    }
+  }
+}
+.analysis-image {
+  display: flex;
+  justify-content: center;
+}
+.analysis-months {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+  p {
+    cursor: pointer;
+    font-size: 10px;
+    line-height: 130%;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 21px;
+  }
+  .active {
+    background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
+    border-radius: 5px;
+    color: #14101d;
+  }
+}
+.payment-card {
+  width: 262px;
+  margin: 30px 0px 0px 130px;
+  height: 140px;
+  background: linear-gradient(140.32deg, #ffffff -277.16%, #14101d 66.28%);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  padding: 20px;
+  .payment-header {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+    svg {
+      margin-top: 6px;
+      font-size: 16px;
+    }
+  }
+  .paycards-main {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .paycard {
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  .paycard:hover {
+    box-shadow: rgba(250, 249, 249, 0.15) 0px 14px 28px,
+      rgba(250, 250, 250, 0.12) 0px 10px 10px;
+  }
+}
