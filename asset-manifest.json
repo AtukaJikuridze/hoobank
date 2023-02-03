@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hoobank/static/css/main.7a3954ee.css",
-    "main.js": "/hoobank/static/js/main.d9b204cc.js",
+    "main.css": "/hoobank/static/css/main.140a5726.css",
+    "main.js": "/hoobank/static/js/main.09a0d082.js",
     "static/js/787.a0919161.chunk.js": "/hoobank/static/js/787.a0919161.chunk.js",
     "static/media/header-image.png": "/hoobank/static/media/header-image.f3264bef15392a105f7d.png",
     "static/media/playstore.svg": "/hoobank/static/media/playstore.2f7286f4a6bb7ea6599ba035d49918da.svg",
@@ -9,12 +9,12 @@
     "static/media/Shield.svg": "/hoobank/static/media/Shield.3d6b02a9878d15c71ca90fe298ead13e.svg",
     "index.html": "/hoobank/index.html",
     "static/media/“.svg": "/hoobank/static/media/“.c8bb1da8320f056e0e1cf903465cc3a6.svg",
-    "main.7a3954ee.css.map": "/hoobank/static/css/main.7a3954ee.css.map",
-    "main.d9b204cc.js.map": "/hoobank/static/js/main.d9b204cc.js.map",
+    "main.140a5726.css.map": "/hoobank/static/css/main.140a5726.css.map",
+    "main.09a0d082.js.map": "/hoobank/static/js/main.09a0d082.js.map",
     "787.a0919161.chunk.js.map": "/hoobank/static/js/787.a0919161.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a3954ee.css",
-    "static/js/main.d9b204cc.js"
+    "static/css/main.140a5726.css",
+    "static/js/main.09a0d082.js"
   ]
 }
