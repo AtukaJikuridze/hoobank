@@ -25,6 +25,9 @@ h3 {
   font-family: "Poppins";
   font-weight: 600;
 }
+h3 {
+  font-size: 16px;
+}
 button {
   color: rgba(0, 4, 14, 1);
   width: 170px;
@@ -39,13 +42,24 @@ button {
     #33bbcf 90.29%
   );
   border-radius: 10px;
-  border: 0;
-  outline: none;
+  border: 0 !important;
+  outline: none !important;
   font-weight: 500;
   font-family: "Poppins";
   cursor: pointer;
+  transition: 0.8s;
 }
-
+button:hover {
+  box-shadow: rgba(255, 255, 255, 0.15) 0px 48px 100px 0px;
+}
+section {
+  padding: 100px 0px !important;
+}
+@media screen and (max-width: 770px) {
+  section {
+    padding: 50px 0px !important;
+  }
+}
 @media screen and (max-width: 1600px) {
   .container {
     max-width: 1240px;

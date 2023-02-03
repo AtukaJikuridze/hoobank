@@ -21,6 +21,9 @@
   align-items: center;
   margin-bottom: 20px;
 }
+.section4-rightside .setion4-creditcard h3 {
+  line-height: 160%;
+}
 .section4-rightside .setion4-creditcard p {
   text-align: center;
   font-size: 12px;
