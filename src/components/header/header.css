@@ -118,11 +118,14 @@ header .header-rightside::before {
 @media screen and (max-width: 1400px) {
   body .header-rightside img {
     width: 500px;
-    top: 50%;
+    top: 40%;
     transform: translateY(-20%);
   }
 }
 @media screen and (max-width: 1200px) {
+  body header {
+    padding: 180px 0px 0px 0px;
+  }
   body .header-leftside-text h1 {
     font-size: 50px;
   }
@@ -132,7 +135,7 @@ header .header-rightside::before {
   }
   body .header-rightside img {
     width: 420px;
-    top: 50%;
+    top: 37%;
     transform: translateY(-20%);
   }
 }

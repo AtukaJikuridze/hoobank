@@ -1,0 +1,129 @@
+.section2 {
+  padding: 180px 0px;
+}
+.section2-main {
+  display: flex;
+  justify-content: space-between;
+}
+.section2-leftside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h1 {
+    width: 622px;
+    font-size: 48px;
+    line-height: 160%;
+  }
+  p {
+    width: 622px;
+    font-size: 18px;
+    line-height: 170%;
+    letter-spacing: 0.01em;
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+.section2-rightside-card:hover {
+  background: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%,
+    #14101d 95.11%
+  );
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+.section2-rightside-card {
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 0.4s;
+  padding: 20px;
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+
+  .image-box {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background: rgba(9, 151, 124, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-10px);
+  }
+  .section2-text {
+    width: 470px;
+    margin-left: 20px;
+    h2 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 27px;
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+}
+.middle {
+  background: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%,
+    #14101d 95.11%
+  );
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1600px) {
+  .section2-main {
+    flex-direction: column;
+  }
+  .section2-leftside {
+    text-align: center;
+    h1,
+    p,
+    .section2-rightside-card {
+      width: 100% !important;
+    }
+  }
+  .section2-leftside {
+    padding: 0px 40px;
+    margin-bottom: 40px;
+  }
+  .section2-rightside-card {
+    margin-top: 50px;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: rgba(103, 100, 100, 0.093) 0px 5px 15px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .section2 {
+    padding: 100px 0px;
+  }
+  .section2-rightside-card {
+    text-align: center;
+    flex-direction: column;
+  }
+  .image-box {
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  .section2-rightside-card .section2-text {
+    width: 100%;
+    p {
+      font-size: 13px;
+    }
+  }
+  .section2-leftside {
+    padding: 0px;
+    h1 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
+import { Months } from "../Months";
 import "./Section4Rightside.css";
-
-import { Months } from "./Months";
 import { IoMdArrowDropdown } from "react-icons/io";
 export default function Section4Rightside() {
   const [MonthsState, setMonthsState] = useState(1);
@@ -31,11 +30,11 @@ export default function Section4Rightside() {
           </div>
           <div className="analysis-colorizetext">
             <div>
-              <h3>$ 2,334,67</h3>
+              <h3>$ 2,333,65</h3>
               <p> Income</p>
             </div>
             <div>
-              <h3>$ 5.31M</h3>
+              <h3>$ 5.32M</h3>
               <p> Expenses</p>
             </div>
           </div>
@@ -71,10 +70,10 @@ export default function Section4Rightside() {
             <img src={require("../../../assets/images/apple.png")} alt="" />
           </div>
           <div className="paycard">
-            <img src={require("../../../assets/images/Shopify.png")} alt="" />
+            <img src={require("../../../assets/images/shopify.png")} alt="" />
           </div>
           <div className="paycard">
-            <img src={require("../../../assets/images/Visa.png")} alt="" />
+            <img src={require("../../../assets/images/visa.png")} alt="" />
           </div>
         </div>
       </div>

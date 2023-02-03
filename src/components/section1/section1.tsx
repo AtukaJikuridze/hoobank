@@ -1,34 +1,26 @@
 import React from "react";
 import "./section1.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 export default function Section1() {
   return (
     <section className="section1">
-      <Container>
-        <Row>
-          <Col lg={4} md={12}>
-            <div className="section1-main">
-              <h1>3800+</h1>
-              <p>USER ACTIVE</p>
-            </div>
-            <div className="line"></div>
-          </Col>
+      <Container className="section1-container">
+        <div className="section1-main">
+          <h1>3800+</h1>
+          <p>USER ACTIVE</p>
+          <div className="line"></div>
+        </div>
 
-          <Col lg={4} md={12}>
-            <div className="section1-main sec1border">
-              <h1>230+</h1>
-              <p>TRUSTED COMPANY</p>
-            </div>
-            <div className="line"></div>
-          </Col>
+        <div className="section1-main sec1border">
+          <h1>230+</h1>
+          <p>TRUSTED COMPANY</p>
+          <div className="line"></div>
+        </div>
 
-          <Col lg={4} md={12}>
-            <div className="section1-main">
-              <h1>$230M+</h1>
-              <p>TRANSACTION</p>
-            </div>
-          </Col>
-        </Row>
+        <div className="section1-main">
+          <h1>$230M+</h1>
+          <p>TRANSACTION</p>
+        </div>
       </Container>
     </section>
   );

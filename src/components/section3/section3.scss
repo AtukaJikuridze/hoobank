@@ -1,0 +1,72 @@
+.section3-rightside {
+  width: 100%;
+  display: flex;
+  padding: 150px 0px;
+  flex-direction: column;
+  text-align: center;
+
+  h1 {
+    width: 470px;
+    font-size: 49px;
+    margin: auto;
+  }
+  p {
+    width: 470px;
+    margin: 40px auto;
+  }
+}
+.social-networks {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+  .social-network {
+    padding: 25px;
+    width: 144.17px;
+    height: 43.04px;
+    background: #000000;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .section3-transaction {
+    width: 100% !important;
+  }
+  .section3-paypal {
+    transform: translateY(10px) !important;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .section3-success {
+    width: 90% !important;
+    p {
+      font-size: 11px !important;
+    }
+  }
+  .section3-rightside {
+    h1,
+    p {
+      width: 100%;
+    }
+    h1 {
+      font-size: 44px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .section3-transaction .transaction-leftside {
+    .normalsize-h1 {
+      font-size: 11px !important;
+    }
+    .grey-p {
+      font-size: 10px !important;
+    }
+  }
+}

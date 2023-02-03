@@ -1,0 +1,52 @@
+.section6-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 293px;
+  width: 100%;
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  padding: 70px 100px;
+  .pGrey {
+    width: 445px;
+  }
+  button {
+    width: 170px;
+    height: 64px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .section6-main {
+    display: block;
+    text-align: center;
+    padding: 50px;
+  }
+  .pGrey {
+    margin: 15px auto;
+  }
+}
+
+@media screen and (max-width: 771px) {
+  .section6-main {
+    height: auto;
+    .pGrey {
+      width: 100%;
+      font-size: 13px;
+    }
+    h1 {
+      font-size: 30px;
+    }
+    button {
+      width: 150px;
+      height: 50px;
+    }
+  }
+}

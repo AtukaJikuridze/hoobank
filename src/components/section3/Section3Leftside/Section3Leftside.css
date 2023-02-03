@@ -1,0 +1,169 @@
+.section3-paypal {
+  padding: 20px 30px;
+  width: 247px;
+  height: 236px;
+  background: linear-gradient(110.53deg, #ffffff -265.46%, #14101d 96.75%);
+  box-shadow: 4px 6px 30px rgba(19, 36, 46, 0.25);
+  border-radius: 10px;
+  margin: auto;
+  transform: translateY(50px);
+  z-index: 1;
+  position: relative;
+}
+
+.paypal-header {
+  display: flex;
+  justify-content: center;
+}
+.paypal-header .paypal-image {
+  margin-right: 20px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-20px);
+}
+.paypal-header h1 {
+  font-size: 24px;
+}
+.paypal-header p {
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.paypal-middle {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.paypal-middle h1 {
+  font-size: 25px;
+}
+.paypal-middle div:nth-child(1) p {
+  font-size: 12px;
+  line-height: 0%;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.7);
+}
+.paypal-middle .change-button {
+  width: 85.87px;
+  height: 40px;
+  border: 1px solid #6ce3e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.paypal-middle .change-button p {
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #6ce3e8;
+}
+
+.payment-button {
+  width: 100%;
+  height: 33px;
+  font-size: 12px;
+  margin: 20px 0px;
+}
+
+.section3-transaction {
+  position: relative;
+  z-index: 0;
+  width: 335px;
+  height: 300px;
+  background: linear-gradient(113.08deg, #ffffff -242.51%, #14101d 85.56%);
+  box-shadow: inset -0.243217px -0.243217px 0.364826px rgba(0, 0, 0, 0.36);
+  -webkit-backdrop-filter: blur(15.2011px);
+          backdrop-filter: blur(15.2011px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 9.12064px;
+  padding: 26px 20px;
+}
+.section3-transaction h2 {
+  font-size: 22px;
+  margin-bottom: 34px;
+}
+.section3-transaction .section3-transaction-middle {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.section3-transaction .section3-transaction-middle .grey-p {
+  color: red;
+  font-size: 12px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.section3-transaction .section3-transaction-middle .normalsize-h1 {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.section3-transaction .section3-transaction-middle .transaction-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section3-transaction .section3-transaction-middle .Netflix {
+  background: rgb(253, 253, 254);
+}
+.section3-transaction .section3-transaction-middle .Cash {
+  background: rgb(223, 255, 240);
+}
+.section3-transaction .transaction-rightside {
+  display: flex;
+  margin-top: 10px;
+}
+.section3-transaction .transaction-rightside img {
+  height: 12px;
+  width: 13px;
+  transform: translateY(5px) translateX(-5px);
+}
+.section3-transaction .transaction-leftside {
+  display: flex;
+  gap: 20px;
+}
+
+.section3-success {
+  margin: auto;
+  display: flex;
+  width: 344px;
+  height: 54px;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(40, 48, 63, 0.25);
+  border-radius: 10px;
+  justify-content: center;
+  padding: 0px 10px;
+  position: relative;
+  transform: translateY(-20px);
+  z-index: 1;
+}
+.section3-success p {
+  color: black;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+}
+.section3-success .succes-icon {
+  background: #00ae1c;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.section3-success .succes-icon svg {
+  font-size: 12px;
+}/*# sourceMappingURL=Section3Leftside.css.map */
