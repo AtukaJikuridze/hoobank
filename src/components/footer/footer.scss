@@ -29,8 +29,13 @@ footer {
       color: #fff;
     }
     p {
+      cursor: pointer;
       font-size: 16px;
+      transition: 0.4s;
       color: rgba(255, 255, 255, 0.7);
+    }
+    p:hover {
+      color: #fff;
     }
   }
 }
@@ -45,6 +50,9 @@ footer {
     display: flex;
     gap: 30px;
     font-size: 25px;
+    svg {
+      cursor: pointer;
+    }
   }
 }
 
@@ -58,6 +66,10 @@ footer {
   }
 }
 @media screen and (max-width: 700px) {
+  .last-footer-text {
+    box-shadow: none !important;
+    padding: 30px 0px 0px 0px !important;
+  }
   .footer-text {
     width: 100%;
     display: flex;

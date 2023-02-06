@@ -1,0 +1,78 @@
+.header-leftside-animation {
+  transform: translateX(-100px);
+  opacity: 0;
+}
+.header-rightside-animation {
+  margin-top: 50px !important;
+  opacity: 0;
+}
+.section2-leftside-animation {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+.section2-leftside-animation {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+.section2-rightside-animation1 {
+  opacity: 0;
+  transform: translateY(100px);
+}
+.section2-rightside-animation2 {
+  opacity: 0;
+  transform: translateY(100px);
+}
+.section2-rightside-animation3 {
+  opacity: 0;
+  transform: translateY(100px);
+}
+.section3-paypal-animation {
+  transform: translateY(-50px) !important;
+  opacity: 0;
+}
+
+.section3-transaction-animation {
+  transform: translateX(-50px) !important;
+  opacity: 0;
+}
+
+.section3-success-animation {
+  transform: translateY(50px) !important;
+  opacity: 0;
+}
+.section3-rightside-animation {
+  opacity: 0;
+  transform: translateX(100px);
+}
+.section4-leftside-animation {
+  opacity: 0;
+  transform: translateY(50px);
+}
+.section4-leftside-animation {
+  opacity: 0;
+  transform: translateX(-40px);
+}
+
+.section4-analysiscard-animation {
+  opacity: 0;
+  transform: translateX(40px);
+}
+.section4-creditcard-animation {
+  opacity: 0;
+  transform: translateX(-40px);
+}
+.section4-creditcard-animation {
+  opacity: 0;
+  transform: translateX(-40px);
+}
+.payment-card-animation {
+  opacity: 0;
+  transform: translateY(50px);
+}
+.section5-card1-animation,
+.section5-card2-animation,
+.section5-card3-animation {
+  transform: translateX(-50px);
+  opacity: 0;
+}

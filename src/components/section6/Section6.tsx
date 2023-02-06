@@ -1,6 +1,7 @@
 import React from "react";
 import "./Section6.css";
 import { Container } from "react-bootstrap";
+
 export default function Section6() {
   return (
     <section className="section6">
