@@ -1,8 +1,8 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./navbar.css";
 import { Container } from "react-bootstrap";
 import { AiOutlineBars, AiOutlineClose } from "react-icons/ai";
-
+import "../../ModernScrolls_React_V2";
 export default function Navbar() {
   const [bars, setBars] = useState(false);
   const navRef = useRef<any>(null);
@@ -11,7 +11,7 @@ export default function Navbar() {
     navRef.current.classList.toggle("afternav");
   };
   return (
-    <nav ref={navRef}>
+    <nav ref={navRef} className="hiddennav">
       {bars ? (
         <AiOutlineClose onClick={switchBars} />
       ) : (

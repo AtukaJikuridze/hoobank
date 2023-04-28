@@ -20,15 +20,21 @@
 }
 
 .section5-card.active {
-  background: linear-gradient(144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
 }
 
 .section5-card {
+  transition: 1s;
   position: relative;
   width: 100%;
   height: 425px;
   -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   border-radius: 20px;
   padding: 60px 45px;
 }
@@ -75,7 +81,7 @@
     font-size: 15px;
   }
   .section5 .section5-card .section5-user p,
-.section5 .section5-card .section5-user .pGrey {
+  .section5 .section5-card .section5-user .pGrey {
     font-size: 13px;
   }
 }
@@ -88,7 +94,7 @@
     font-size: 13px;
   }
   .section5 .section5-card .section5-user p,
-.section5 .section5-card .section5-user .pGrey {
+  .section5 .section5-card .section5-user .pGrey {
     font-size: 12px;
   }
 }
@@ -107,4 +113,4 @@
     left: 50%;
     transform: translateX(-50%);
   }
-}/*# sourceMappingURL=section5.css.map */
+} /*# sourceMappingURL=section5.css.map */

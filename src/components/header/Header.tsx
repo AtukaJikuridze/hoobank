@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./header.css";
 import Container from "react-bootstrap/esm/Container";
 import { HiTrendingUp } from "react-icons/hi";
+import { M_ScrollLoad } from "../../ModernScrolls_React_V2";
+import "../../animations.css";
 
 export default function Header() {
+  M_ScrollLoad(".header-leftside", 100, "header-leftside-animation");
+  M_ScrollLoad(".header-rightside img", 100, "header-rightside-animation");
+
   return (
     <header>
       <Container className="header-container">
-        <div className="header-leftside">
+        <div className="header-leftside header-leftside-animation ">
           <div className="header-discount">
             <img
               src={require("../../assets/images/header-discount.png")}
@@ -37,7 +42,11 @@ export default function Header() {
         </div>
 
         <div className="header-rightside">
-          <img src={require("../../assets/images/header-image.png")} alt="" />
+          <img
+            src={require("../../assets/images/header-image.webp")}
+            alt=""
+            className="header-rightside-animation"
+          />
         </div>
       </Container>
     </header>

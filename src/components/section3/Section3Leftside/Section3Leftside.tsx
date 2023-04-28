@@ -5,7 +5,7 @@ import { BsCheckLg } from "react-icons/bs";
 export default function Section3Leftside() {
   return (
     <div className="section3-leftside">
-      <div className="section3-paypal">
+      <div className="section3-paypal section3-paypal-animation">
         <div className="paypal-header">
           <div className="paypal-image">
             <img src={require("../../../assets/images/PayPal.png")} alt="" />
@@ -26,7 +26,7 @@ export default function Section3Leftside() {
         </div>
         <button className="payment-button">Make Payment</button>
       </div>
-      <div className="section3-transaction">
+      <div className="section3-transaction section3-transaction-animation">
         <h2>Lost Transaction</h2>
         <Transaction
           title="Dribble Pro"
@@ -55,7 +55,7 @@ export default function Section3Leftside() {
           className="Cash"
         />
       </div>
-      <div className="section3-success">
+      <div className="section3-success section3-success-animation">
         <div className="succes-icon">
           <BsCheckLg />
         </div>

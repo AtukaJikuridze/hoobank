@@ -4,6 +4,7 @@
   padding: 150px 0px;
   flex-direction: column;
   text-align: center;
+  transition: 1s;
 }
 .section3-rightside h1 {
   width: 470px;

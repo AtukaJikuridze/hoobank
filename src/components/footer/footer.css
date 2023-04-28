@@ -30,8 +30,13 @@ footer {
   color: #fff;
 }
 .footer-main .footer-text p {
+  cursor: pointer;
   font-size: 16px;
+  transition: 0.4s;
   color: rgba(255, 255, 255, 0.7);
+}
+.footer-main .footer-text p:hover {
+  color: #fff;
 }
 
 .footer-bottom {
@@ -46,6 +51,9 @@ footer {
   gap: 30px;
   font-size: 25px;
 }
+.footer-bottom .footer-icons svg {
+  cursor: pointer;
+}
 
 @media screen and (max-width: 1090px) {
   .footer-main {
@@ -57,6 +65,10 @@ footer {
   }
 }
 @media screen and (max-width: 700px) {
+  .last-footer-text {
+    box-shadow: none !important;
+    padding: 30px 0px 0px 0px !important;
+  }
   .footer-text {
     width: 100%;
     display: flex;

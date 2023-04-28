@@ -1,9 +1,15 @@
 header {
   padding: 180px 0px 100px 0px;
 }
+header .header-leftside {
+  transition: 1s;
+}
 header .header-container {
   display: flex;
   justify-content: space-between;
+}
+header .header-rightside {
+  transition: 0.4s;
 }
 header .header-rightside img {
   margin-top: -100px;
@@ -11,6 +17,7 @@ header .header-rightside img {
   position: absolute;
   right: 0;
   top: 260px;
+  transition: 1s;
 }
 header .header-rightside::before {
   content: "";

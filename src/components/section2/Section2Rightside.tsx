@@ -5,7 +5,7 @@ import send from "../../assets/images/Send.png";
 export default function Section2Rightside() {
   return (
     <>
-      <div className="section2-rightside-card">
+      <div className="section2-rightside-card section2-rightside-animation1">
         <div className="image-box">
           <img src={require("../../assets/images/Star.png")} alt="" />
         </div>
@@ -18,7 +18,7 @@ export default function Section2Rightside() {
         </div>
       </div>
 
-      <div className="section2-rightside-card middle">
+      <div className="section2-rightside-card middle section2-rightside-animation2">
         <div className="image-box">
           <img src={shield} alt="" />
         </div>
@@ -31,7 +31,7 @@ export default function Section2Rightside() {
         </div>
       </div>
 
-      <div className="section2-rightside-card">
+      <div className="section2-rightside-card section2-rightside-animation3">
         <div className="image-box">
           <img src={send} alt="" />
         </div>

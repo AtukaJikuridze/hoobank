@@ -31,7 +31,7 @@ export default function Footer() {
             <p>Newsletters</p>
           </div>
 
-          <div className="footer-text">
+          <div className="footer-text last-footer-text">
             <p>Our Partner</p>
             <p>Our Partner</p>
 

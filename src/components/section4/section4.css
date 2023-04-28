@@ -1,6 +1,13 @@
 .section4 {
   padding: 100px 0px;
 }
+.section4-leftside,
+.section4-rightside {
+  transition: 1s;
+}
+.section4-leftside {
+  margin-top: 90px;
+}
 .section4 .section4-leftside h1 {
   width: 570px;
   height: 154px;
@@ -27,9 +34,10 @@
     flex-direction: column;
     display: flex;
     justify-content: center;
+    margin-top: 0px;
   }
   .section4 .section4-leftside p,
-.section4 .section4-leftside h1 {
+  .section4 .section4-leftside h1 {
     line-height: 140%;
     width: unset;
   }
@@ -63,7 +71,7 @@
     text-align: center;
   }
   .section4 .section4-leftside p,
-.section4 .section4-leftside h1 {
+  .section4 .section4-leftside h1 {
     width: 600px;
     line-height: normal;
     margin: 0px auto 30px auto !important;
@@ -89,4 +97,4 @@
     margin: 40px 0px !important;
     width: 100%;
   }
-}/*# sourceMappingURL=section4.css.map */
+} /*# sourceMappingURL=section4.css.map */
