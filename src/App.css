@@ -6,6 +6,9 @@
   color: #fff;
   font-weight: 400;
 }
+.App {
+  overflow: hidden;
+}
 body {
   background: #010614;
 }
