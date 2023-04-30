@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hoobank/static/css/main.d9d6a0f1.css",
+    "main.css": "/hoobank/static/css/main.07b14a43.css",
     "main.js": "/hoobank/static/js/main.3739add9.js",
     "static/js/787.a0919161.chunk.js": "/hoobank/static/js/787.a0919161.chunk.js",
     "static/media/header-image.webp": "/hoobank/static/media/header-image.d6b2d6f529a44be19bd4.webp",
@@ -9,12 +9,12 @@
     "static/media/Shield.svg": "/hoobank/static/media/Shield.3d6b02a9878d15c71ca90fe298ead13e.svg",
     "index.html": "/hoobank/index.html",
     "static/media/“.svg": "/hoobank/static/media/“.c8bb1da8320f056e0e1cf903465cc3a6.svg",
-    "main.d9d6a0f1.css.map": "/hoobank/static/css/main.d9d6a0f1.css.map",
+    "main.07b14a43.css.map": "/hoobank/static/css/main.07b14a43.css.map",
     "main.3739add9.js.map": "/hoobank/static/js/main.3739add9.js.map",
     "787.a0919161.chunk.js.map": "/hoobank/static/js/787.a0919161.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9d6a0f1.css",
+    "static/css/main.07b14a43.css",
     "static/js/main.3739add9.js"
   ]
 }
